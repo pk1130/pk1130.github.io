@@ -40,6 +40,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+::selection {
+  background: #ff4500;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;

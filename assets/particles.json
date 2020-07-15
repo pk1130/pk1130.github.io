@@ -4,7 +4,7 @@
       "value": 55,
       "density": {
         "enable": true,
-        "value_area": 962
+        "value_area": 1100
       }
     },
     "color": {
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 2,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
@@ -87,8 +87,8 @@
         }
       },
       "bubble": {
-        "distance": 150,
-        "size": 7,
+        "distance": 80,
+        "size": 5,
         "duration": 2,
         "opacity": 8,
         "speed": 3
@@ -108,7 +108,6 @@
   "config_demo": {
     "hide_card": false,
     "background_color": "#b61924",
-    "background_image": "",
     "background_position": "50% 50%",
     "background_repeat": "no-repeat",
     "background_size": "cover"

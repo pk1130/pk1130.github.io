@@ -55,12 +55,14 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 ::selection {
-  background: #ff4500;
+  background: #ffc907;
+  color: darkslategray
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #ff4500;
+  background: #ffc907;
+  color: darkslategray
   /* Gecko Browsers */
 }
 
@@ -7911,7 +7913,7 @@ header {
     .wrap .about-desc {
       position: relative; } }
   .wrap .about-desc .bold-text {
-    position: absolute;
+    /* position: absolute; removed as it was overlapping with links and causing errors */
     top: -80px;
     left: -50px;
     right: 0;
@@ -7921,7 +7923,7 @@ header {
     text-transform: uppercase; }
     @media (min-width: 992px) {
       .wrap .about-desc .bold-text {
-        font-size: 10em; } }
+        font-size: 9em; } }
     @media (max-width: 991.98px) {
       .wrap .about-desc .bold-text {
         display: none; } }
@@ -8233,6 +8235,10 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+.author-img {
+  background-size: contain;
+}
 
 .image-popup {
   cursor: -webkit-zoom-in;
